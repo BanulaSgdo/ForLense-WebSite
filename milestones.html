@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milestones | ForLens</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/components.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="ForLens logo"><span>ForLens</span></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" data-nav>
+      <a href="index.html">Home</a><a href="domain.html">Domain</a><a href="milestones.html">Milestones</a><a href="documents.html">Documents</a><a href="slides.html">Slides</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-tools"><a class="nav-cta" href="contact.html">Request Demo</a></div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-milestones">
+      <p class="eyebrow">Delivery Plan</p>
+      <h1>Milestones aligned with prototype, commercialization, and final demonstration.</h1>
+      <p>The roadmap connects academic evaluation with a realistic path toward SME pilot adoption.</p>
+    </section>
+
+    <section class="section assessment-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Assessment Timeline</p>
+        <h2>2025/26 July batch project assessment flow</h2>
+        <p>The timeline follows the sequence in the provided assessment screenshot and separates academic checkpoints from product commercialization work.</p>
+      </div>
+      <div class="timeline-toolbar reveal">
+        <button class="timeline-filter is-active" type="button" data-timeline-filter="all">All</button>
+        <button class="timeline-filter" type="button" data-timeline-filter="planning">Planning</button>
+        <button class="timeline-filter" type="button" data-timeline-filter="proposal">Proposal</button>
+        <button class="timeline-filter" type="button" data-timeline-filter="progress">Progress</button>
+        <button class="timeline-filter" type="button" data-timeline-filter="final">Final</button>
+      </div>
+      <div class="roadmap-canvas reveal" data-timeline-board>
+        <svg class="road-svg" viewBox="0 0 1200 460" preserveAspectRatio="none" aria-hidden="true">
+          <path class="road-shadow" d="M-40 170 C90 65 190 70 300 160 S510 280 620 190 S820 60 950 150 S1120 290 1240 190"/>
+          <path class="road" d="M-40 170 C90 65 190 70 300 160 S510 280 620 190 S820 60 950 150 S1120 290 1240 190"/>
+          <path class="road-line" d="M-40 170 C90 65 190 70 300 160 S510 280 620 190 S820 60 950 150 S1120 290 1240 190"/>
+        </svg>
+        <button class="road-pin is-active p1" type="button" data-timeline-target="brainstorm" data-phase="planning"><span>01</span><svg viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M8 14a6 6 0 1 1 8 0c-.8.7-1 1.5-1 2H9c0-.5-.2-1.3-1-2Z"/></svg></button>
+        <button class="road-pin p2" type="button" data-timeline-target="registration" data-phase="planning"><span>02</span><svg viewBox="0 0 24 24"><path d="M8 7a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/><path d="M16 11h6"/><path d="M19 8v6"/></svg></button>
+        <button class="road-pin p3" type="button" data-timeline-target="taf" data-phase="planning"><span>03</span><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg></button>
+        <button class="road-pin p4" type="button" data-timeline-target="charter" data-phase="planning"><span>04</span><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></button>
+        <button class="road-pin p5" type="button" data-timeline-target="proposal" data-phase="proposal"><span>05</span><svg viewBox="0 0 24 24"><path d="M4 19h16"/><path d="M6 17V9l5-4 7 5v7"/><path d="M10 17v-5h4v5"/></svg></button>
+        <button class="road-pin p6" type="button" data-timeline-target="pp1" data-phase="progress"><span>06</span><svg viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m7 15 4-4 3 3 5-7"/></svg></button>
+        <button class="road-pin p7" type="button" data-timeline-target="research" data-phase="final"><span>07</span><svg viewBox="0 0 24 24"><path d="M4 5h7a4 4 0 0 1 4 4v10H8a4 4 0 0 0-4 0z"/><path d="M20 5h-5a4 4 0 0 0-4 4"/></svg></button>
+        <button class="road-pin p8" type="button" data-timeline-target="pp2" data-phase="progress"><span>08</span><svg viewBox="0 0 24 24"><path d="M3 4h18v12H3z"/><path d="M8 20h8"/><path d="M12 16v4"/></svg></button>
+        <button class="road-pin p9" type="button" data-timeline-target="final-viva" data-phase="final"><span>09</span><svg viewBox="0 0 24 24"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/></svg></button>
+        <button class="road-pin p10" type="button" data-timeline-target="website" data-phase="final"><span>10</span><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18"/><path d="M8 14h8"/></svg></button>
+        <button class="road-pin p11" type="button" data-timeline-target="logbook" data-phase="final"><span>11</span><svg viewBox="0 0 24 24"><path d="M6 3h12v18H6z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg></button>
+        <div class="road-card c1"><span>01</span><h3>Brainstorming</h3><p>25 Mar</p></div>
+        <div class="road-card c2"><span>02</span><h3>Registration</h3><p>26 May</p></div>
+        <div class="road-card c3"><span>03</span><h3>Topic Form</h3><p>30 Jun - 16 Jul</p></div>
+        <div class="road-card c4"><span>04</span><h3>Charter</h3><p>23 Jul</p></div>
+        <div class="road-card c5"><span>05</span><h3>Proposal</h3><p>Aug - Sep</p></div>
+        <div class="road-card c6"><span>06</span><h3>Progress I</h3><p>15-19 Dec</p></div>
+        <div class="road-card c7"><span>07</span><h3>Research</h3><p>Mar - Apr</p></div>
+        <div class="road-card c8"><span>08</span><h3>Progress II</h3><p>Mar</p></div>
+        <div class="road-card c9"><span>09</span><h3>Final Viva</h3><p>May</p></div>
+        <div class="road-card c10"><span>10</span><h3>Website</h3><p>June</p></div>
+        <div class="road-card c11"><span>11</span><h3>Logbook</h3><p>June</p></div>
+      </div>
+      <div class="timeline-detail reveal" data-timeline-detail>
+        <span>25 Mar</span>
+        <h3>Brainstorming workshop</h3>
+        <p>Initial problem exploration for SME endpoint security, stakeholder needs, and feasible research scope.</p>
+      </div>
+    </section>
+
+    <section class="section roadmap-grid">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Commercial Roadmap</p>
+        <h2>Next steps after research delivery</h2>
+      </div>
+      <article class="roadmap-card reveal"><h3>Prototype</h3><p>Validate endpoint telemetry, AI scoring, dashboard actions, and log verification in a controlled lab.</p></article>
+      <article class="roadmap-card reveal"><h3>MVP Pilot</h3><p>Run a small SME pilot with cloud dashboard hosting, benchmark knowledgebase, and admin notification chains.</p></article>
+      <article class="roadmap-card reveal"><h3>SaaS Launch</h3><p>Offer per-endpoint subscription plans with reporting, support workflows, and onboarding documentation.</p></article>
+      <article class="roadmap-card reveal"><h3>MSP Partnerships</h3><p>Enable managed service providers to monitor multiple SME clients from a standardized operations layer.</p></article>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Milestones and commercialization roadmap.</p><span>&copy; <span data-year></span> 25-26J-076</span></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

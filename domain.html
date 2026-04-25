@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domain | ForLens</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/components.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="ForLens logo"><span>ForLens</span></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" data-nav>
+      <a href="index.html">Home</a><a href="domain.html">Domain</a><a href="milestones.html">Milestones</a><a href="documents.html">Documents</a><a href="slides.html">Slides</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-tools"><a class="nav-cta" href="contact.html">Request Demo</a></div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-domain">
+      <p class="eyebrow">Research Domain</p>
+      <h1>Explainable AI, deception, secure logging, and automated response.</h1>
+      <p>The domain is narrowed around SME endpoint security where users need trustworthy, readable, and actionable threat evidence without operating a full enterprise SOC.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Research Gap</p>
+        <h2>SMEs need more than a cheaper EDR</h2>
+        <p>Existing tools are often expensive, complex, resource-heavy, or difficult to interpret. ForLens addresses the gap with explainable insider-threat detection, endpoint-level deception, dynamic response automation, and forensic integrity.</p>
+      </div>
+      <div class="domain-grid">
+        <article class="domain-card reveal">
+          <img src="assets/images/endpoint-agent.png" alt="Endpoint agent">
+          <h3>Endpoint Data Collection Agent</h3>
+          <p>Separates telemetry collection from detection logic, keeping the agent lightweight while forwarding events securely to the analysis engine.</p>
+        </article>
+        <article class="domain-card reveal">
+          <img src="assets/images/ai-engine.png" alt="AI detection engine">
+          <h3>Behavioral Detection Engine</h3>
+          <p>Combines Isolation Forest, LSTM autoencoder concepts, threat intelligence, and MITRE mapping for context-rich anomaly scoring.</p>
+        </article>
+        <article class="domain-card reveal">
+          <img src="assets/images/Secure-Storage.png" alt="Secure storage">
+          <h3>Cryptographic Log Integrity</h3>
+          <p>Uses tamper-evident storage concepts to make incident evidence easier to validate during response and reporting.</p>
+        </article>
+        <article class="domain-card reveal">
+          <img src="assets/images/Soar.png" alt="SOAR dashboard">
+          <h3>SOAR-Style Dashboard</h3>
+          <p>Supports role-aware risk scoring, admin notifications, quarantine visibility, recommended playbooks, and readable reports.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section evidence-matrix">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Proposal Alignment</p>
+        <h2>Research objectives translated into product requirements</h2>
+      </div>
+      <div class="matrix-grid">
+        <article class="matrix-card reveal"><span>Objective 01</span><h3>Lightweight Endpoint Agent</h3><p>Plug-and-play telemetry collection with less than 10% endpoint overhead target.</p></article>
+        <article class="matrix-card reveal"><span>Objective 02</span><h3>AI Behavior Modeling</h3><p>Isolation Forest, LSTM autoencoder concepts, and threat intelligence correlation for high-confidence alerts.</p></article>
+        <article class="matrix-card reveal"><span>Objective 03</span><h3>Tamper-Evident Logging</h3><p>Cryptographic evidence integrity so incident records can be verified after an attack.</p></article>
+        <article class="matrix-card reveal"><span>Objective 04</span><h3>SOAR-Style Response</h3><p>Role-aware risk scoring, playbooks, quarantine notifications, and readable executive reporting.</p></article>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div class="copy-panel reveal">
+        <p class="eyebrow">System Flow</p>
+        <h2>From endpoint event to business-ready action</h2>
+        <ol class="number-list">
+          <li>Endpoint agent records process, file, registry, network, and honeypot events.</li>
+          <li>Telemetry is normalized and enriched with threat intelligence and behavioral context.</li>
+          <li>The engine produces severity, confidence, rationale, and MITRE technique mapping.</li>
+          <li>The dashboard recommends or executes SOAR actions such as isolate, block, terminate, notify, and report.</li>
+          <li>Tamper-evident logs preserve verification evidence for later review.</li>
+        </ol>
+      </div>
+      <div class="visual-panel reveal">
+        <img src="assets/images/architecture-diagram.png.png" alt="ForLens architecture diagram">
+      </div>
+    </section>
+
+    <section class="section architecture-gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Architecture Views</p>
+        <h2>Technical architecture and component workflows</h2>
+        <p>These diagrams use extracted proposal and progress-presentation visuals to show how individual components work and how they connect into the full ForLens workflow.</p>
+      </div>
+      <div class="architecture-grid">
+        <article class="architecture-card reveal">
+          <img src="assets/images/architecture-diagram.png.png" alt="Overall ForLens solution architecture">
+          <div><span>Whole Solution</span><h3>Integrated ForLens Pipeline</h3><p>Endpoint telemetry, AI correlation, secure storage, explainability, SOAR automation, and dashboard reporting connected as one SME-ready workflow.</p></div>
+        </article>
+        <article class="architecture-card reveal">
+          <img src="assets/images/architecture-cloud.jpg" alt="Cloud-ready ForLens architecture">
+          <div><span>Cloud Deployment</span><h3>ForLens Cloud Control Layer</h3><p>Cloud-ready processing supports secure API communication, centralized analysis, dashboard visibility, and MSP-friendly rollout.</p></div>
+        </article>
+        <article class="architecture-card reveal">
+          <img src="assets/images/architecture-endpoint-detail.jpg" alt="Endpoint agent detailed architecture">
+          <div><span>Endpoint Detail</span><h3>Monitoring and Honeypot Modules</h3><p>Shows process execution, file-system access, network connections, registry/config changes, SMB decoy, SSH decoy, decoy documents, and fake database signals.</p></div>
+        </article>
+        <article class="architecture-card reveal">
+          <img src="assets/images/architecture-ai-engine.jpg" alt="AI anomaly engine architecture">
+          <div><span>Detection Layer</span><h3>AI and Threat Intelligence Engine</h3><p>Shows raw log processing, TI aggregation, OSINT/commercial feeds, MITRE ATT&CK framework, anomaly scoring, and explainable alert generation.</p></div>
+        </article>
+        <article class="architecture-card reveal">
+          <img src="assets/images/architecture-secure-logs.png" alt="Secure logging architecture">
+          <div><span>Evidence Layer</span><h3>Tamper-Evident Logging</h3><p>Shows log collection, cryptographic processing, Merkle tree hashing, secure storage, immutable anchor storage, proof verification, and selective disclosure.</p></div>
+        </article>
+        <article class="architecture-card reveal">
+          <img src="assets/images/architecture-soar-explainability.png" alt="SOAR and explainability architecture">
+          <div><span>Response Layer</span><h3>Explainability and SOAR Automation</h3><p>Shows explainability orchestration, SHAP/LIME-style interpretation, natural-language rationale, alert ingestion, MITRE mapping, risk scoring, and automated playbooks.</p></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>ForLens research domain and system architecture.</p><span>&copy; <span data-year></span> 25-26J-076</span></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

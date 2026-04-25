@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | ForLens</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/components.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="ForLens logo"><span>ForLens</span></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" data-nav>
+      <a href="index.html">Home</a><a href="domain.html">Domain</a><a href="milestones.html">Milestones</a><a href="documents.html">Documents</a><a href="slides.html">Slides</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-tools"><a class="nav-cta" href="contact.html">Request Demo</a></div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-contact">
+      <p class="eyebrow">Contact</p>
+      <h1>Discuss pilots, demonstrations, and academic review.</h1>
+      <p>Use the contact form for project inquiries, SME pilot interest, or presentation review coordination.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <div class="contact-card reveal">
+        <h2>Project Contact</h2>
+        <p>Email: <a href="mailto:info@forlense.xyz">info@forlense.xyz</a></p>
+        <p>Group: 25-26J-076</p>
+        <p>Specialization: Cyber Security</p>
+        <div class="contact-points">
+          <span>SME pilot inquiries</span>
+          <span>Project evaluation support</span>
+          <span>Demo and document requests</span>
+        </div>
+      </div>
+      <form class="contact-form reveal" data-contact-form>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us what you need" required></textarea>
+        <button class="button button-primary" type="submit">Prepare Email</button>
+        <p class="form-status" data-form-status aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Contact the ForLens team.</p><span>&copy; <span data-year></span> 25-26J-076</span></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
